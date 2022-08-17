@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <!-- An external stylesheet is applied -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* '*' is used to apply the style to the whole body */
+        * {
+            background-image: url(contact.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        /* some classes are specified */
+
+        .style3 {
+            font-weight: bold;
+            color: rgb(127, 161, 255);
+        }
+        /* some styles to the heading1 */
+        h1{
+            font-family: cursive;
+             color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+    <!-- style3 is applied to the form -->
+    <div class="style3">
+        <form>
+            <!-- lable is used for the user view -->
+            <label for="name">Name</label><br>
+            <!-- input is used for the user input -->
+            <input type="text" name="Your name" id="name" placeholder="Enter Your Name" required><br><br>
+
+
+            <label for="email">E-mail</label><br>
+            <input type="email" name="Your email" id="email" placeholder="abc@gmail.com"><br><br>
+            <label for="msg"> Your message</label> <br>
+            <!-- textarea is used for user meassage -->
+            <textarea name=" Your message" id="msg" cols="60" rows="15"></textarea><br>
+            <!-- this is the submit button -->
+            <input type="submit" value="Submit">
+
+
+        </form>
+
+    </div>
+    <!-- a link is here to redirect to the homepage -->
+    <div style="margin-top: 8%;"> <a href="My Portfolio.html">Home Page</a></div>
+</body>
+
+</html>

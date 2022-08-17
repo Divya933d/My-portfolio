@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <!--an external css is used -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*'*' is used to apply the style to whole body  */
+        * {
+            background-image: url(about2.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            font-weight: bold;
+            font-family: Georgia, serif;
+        }
+/* some claases are defined */
+        .imgstyle {
+            height: 300px;
+            width: 225px;
+
+        }
+
+        .highlight {
+            color: rgb(51, 255, 0);
+        }
+/* this is internal css which will be directly applied to ul and li */
+        ul,
+        li {
+            color: azure;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center;">About <span style="color:blue ;">Me</span></h2>
+    <p style="text-align: center;"> <img src="divya.jpeg" alt="My pic" class="imgstyle"></p>
+    <div>
+        <p> <span class="highlight">Hello everyone</span>. <br> My name is <b>Divyalochan Managaraj</b> ,20 years
+            old,live in <strong>Bhubaneswar,Odisha.</strong>After completion of Graduation I have decided to be a web
+            developer so I have joined in <span class="highlight">Skill Acaademy</span> to gain knowledge in programming
+            language . As it's been only a month so till now I have learnt basic, but definately miles to go .In
+            upcoming future I am going to learn
+            <!-- an unorderd list -->
+        <ul>
+            <li>HTML</li>
+            <li>CSS3</li>
+            <li>JS</li>
+            <li>GIT</li>
+            <li>MongoDB</li>
+            <li>Docker</li>
+            <li>MySQL and</li>
+            <li>React</li>
+        </ul>
+        <h3>My Hobbies</h3>
+        <!-- an orderd list -->
+        <ol>
+            <li>Listening Music</li>
+            <li>Travelling</li>
+            <li>Exploring things in Internet</li>
+            <li>Reading Novel</li>
+        </ol>
+        </p>
+    </div>
+<!-- A link is creeated which will redirect to the home page -->
+    <div> <a href="My Portfolio.html">Home Page</a></div>
+</body>
+
+</html>
